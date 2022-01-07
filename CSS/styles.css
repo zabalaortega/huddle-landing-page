@@ -1,0 +1,82 @@
+@import "./header.css";
+@import "./section.css";
+@import "./sectionFooter.css";
+@import "./footer.css";
+
+:root{
+    --Pink: hsl(322, 100%, 66%);
+    --Very-Pale-Cyan: hsl(193, 100%, 96%);
+    --Very-Dark-Cyan: rgb(192, 100%, 9%);
+    --Grayish-Blue: hsl(208, 11%, 55%);
+    --white: hsl(0, 100%, 100%);
+    --footer: rgb(7, 25, 44);
+}
+
+body{  
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+.wrapper{
+    margin: auto;
+    padding: 0 1em;
+}
+
+.button{
+    padding: 6px 25px;
+    color: var(--Very-Dark-Cyan);
+    background: var(--white);
+    border: none;
+    border-radius: 50px;
+    font-weight: 700;
+    box-shadow: -10px 4px 30px -5px rgba(0,0,0,0.22);
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.h2{
+    font-size: 1.2em;
+}
+
+.h3{
+    font-size: .9em;
+    margin: 0;
+    padding-bottom: 1.5em;
+}
+
+.p{
+    font-size: .9em;
+    color: #2c2a2a;
+}
+
+.button-link{
+    background: var(--Pink);
+    border-radius: 50px;
+    padding: 1em 4em;
+    color: rgb(3, 0, 0);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+}
+
+.text{
+    padding-bottom: 1.5em;
+}
+
+ul{
+    padding: 0;
+}
+
+li{
+    color: var(--white);
+    list-style: none;
+}
